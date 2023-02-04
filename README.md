@@ -1,5 +1,5 @@
 # Demo Netlify Link:
-https://github.com/harivilasp/tuiter-react-web-app-cs5610-07-sp23
+https://dapper-licorice-6ff9ed.netlify.app/
 
 # Getting Started with Create React App
 
