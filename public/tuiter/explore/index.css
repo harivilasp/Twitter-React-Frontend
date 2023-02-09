@@ -35,6 +35,19 @@ body {
     color:black;
 }
 
+.wd-nav-bar{
+    font-weight: bold;
+    color: rgb(110, 118, 125);
+}
+
+.wd-nav-tab{
+    height: 30px;
+}
+.wd-selected-tab{
+    color: rgb(29, 161, 242);
+    border-bottom: 4px solid rgb(29, 161, 242);
+}
+
 /* .wd-search-panel{
     clear: both;
     display: flex;
