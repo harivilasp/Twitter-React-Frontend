@@ -1,12 +1,42 @@
 body {
-    background-color: black;
-    color: white;
+    /* background-color: black;
+    color: white; */
     font-family: Arial;
     margin: 10px;
 }
 
-.wd-search-panel{
-    /*clear: both;*/
+.wd-post-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.wd-input {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    margin-right: 12px;
+    border: 1;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+}
+
+#tweet-button {
+    background-color: #0d6efd;
+}
+
+.active-list-item {
+    /* background-color: white; */
+    color:black;
+}
+
+/* .wd-search-panel{
+    clear: both;
     display: flex;
     height: 40px;
     margin: 10px;
@@ -44,25 +74,7 @@ body {
     text-decoration: none;
 }
 
-/*.wd-search-bar > input {*/
-/*    background: #5A5A5A;*/
-/*    width: 100%;*/
-/*    color: white;*/
-/*    size: 12px;*/
-/*    padding-left: 12px;*/
-/*    border-radius: 5px;*/
-/*}*/
 
-.wd-search-bar > input {
-    border-radius: 20px;
-    height: 100%;
-    width: 100%;
-    background-color: #303335;
-    padding-left: 50px;
-    margin-right: 12px;
-    border: 0;
-    font-size: 18px;
-}
 
 .wd-nav-bar{
     display: flex;
@@ -83,12 +95,8 @@ body {
     border-bottom: 4px solid rgb(29, 161, 242);
 }
 
-/*.wd-post{*/
-/*    border: 1px solid #303335;*/
-/*}*/
-
 .wd-trending-category{
-    /*color: lightgray;*/
+    color: lightgray;
     color: rgb(110, 118, 125);
     font-size: 0.8em;
     padding: 2px;
@@ -106,7 +114,7 @@ body {
     margin: 1%;
 }
 .wd-trending{
-    /*color: rgb(110, 118, 125);*/
+    color: rgb(110, 118, 125);
     border: 1px solid #303335;
 }
 
@@ -164,3 +172,4 @@ body {
     border-radius: 5px;
     margin: 0 3px;
 }
+*/
