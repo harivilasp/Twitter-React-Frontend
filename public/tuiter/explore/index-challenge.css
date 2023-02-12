@@ -15,11 +15,12 @@ body {
     width: 100%;
     padding-left: 50px;
     margin-right: 12px;
-    border: 1;
+    border: 0;
     font-size: 18px;
+    background-color: lightgray;
 }
 
-/* .btn-primary {
+.btn-primary {
     background-color: black;
     color: white;
 }
@@ -29,6 +30,7 @@ body {
 }
 
 .active-list-item {
+    /* background-color: white; */
     color:black;
 }
 
@@ -38,15 +40,22 @@ body {
 }
 
 .wd-nav-tab{
-    height: 30px; 
+    /* height: 30px; */
     padding: 0%;
     border: 0;
 }
 .wd-selected-tab{
     color: rgb(29, 161, 242);
     border-bottom: 4px solid rgb(29, 161, 242);
-} */
+}
 
 .wd-gray {
     color: rgb(110, 118, 125);
+}
+
+.who-to-follow {
+    background-color: lightgray;
+    border-radius: 20px;
+    /* padding: 10px;
+    margin: 10px; */
 }
