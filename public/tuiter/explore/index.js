@@ -1,20 +1,21 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
+import WhoToFollowList from "../WhoToFollowList/index.js";
+import ExploreComponent from "./ExploreComponent.js";
 
-function exploreComponent() {
-   $('#wd-explore').append(`
-       <h2>Explore</h2>
-  <div class="row mt-2">
-   <div class="col-2 col-md-2 col-lg-1 col-xl-2">
-   <!--<h3>Navigation Sidebar</h3>-->
-    ${NavigationSidebar()}
-   </div>
-   <div class="col-10 col-lg-7 col-xl-6 bg-primary text-white">
-    <h3>ExploreComponent</h3>
-   </div>
-   <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-danger text-white">
-    <h3>WhoToFollowList </h3>
-   </div>
-  </div>
+const explore = () => {
+  $('#wd-explore').append(`
+       <div class="row mt-2">
+          <div class="col-2 col-lg-1 col-xl-2 col-xxl-2 pt-3">
+            ${NavigationSidebar("explore")}
+          </div>
+          <div class="col-10 col-lg-7 col-xl-6 col-xxl-6 pt-1 ps-4 pe-4">
+            ${ExploreComponent()}
+          </div>
+          <div class="col-4 d-none d-lg-block d-xl-block d-xxl-block pt-3">
+            ${WhoToFollowList()}
+          </div>
+       </div>
    `);
 }
-$(exploreComponent);
+
+$(explore);

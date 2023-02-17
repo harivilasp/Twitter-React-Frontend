@@ -1,6 +1,6 @@
 export default [
     {
-      avatar: "elonmusk.jpeg",
+      avatar: "elonmusk.jpg",
       username: "Elon Musk",
       handle: "elonmusk",
       time: "24h",
@@ -14,7 +14,7 @@ export default [
       like: "37.5K",
     },
     {
-      avatar: "ny.jpeg",
+      avatar: "ny.png",
       username: "New York Post",
       handle: "nypost",
       time: "23h",

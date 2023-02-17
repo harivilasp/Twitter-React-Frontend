@@ -1,4 +1,4 @@
-export default exploreItems = [
+export default [
     {
         topic: 'Web Development',
         userName: 'ReactJS',
@@ -27,7 +27,7 @@ export default exploreItems = [
         userName: 'NodeJS',
         title: '',
         time: 'last month',
-        image: '../../images/node.png',
+        image: '../../images/nodejs.png',
         tweets: '120K',
     },];
  

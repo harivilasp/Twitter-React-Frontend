@@ -3,7 +3,7 @@ const postItem = post => {
     <li class="list-group-item bg-black">
       <div class="row">
           <div class="col-1 d-flex justify-content-center">
-            <img src="../img/${post.avatar}" width="48px" height="48px" class="rounded-circle">
+            <img src="../../images/${post.avatar}" width="48px" height="48px" class="rounded-circle">
           </div>
       
           <div class="col-11">
@@ -24,7 +24,7 @@ const postItem = post => {
               </div>
               
               <div class="rounded-4 border border-1 border-dark overflow-hidden mt-3">
-                  <img src="../img/${post.image}" width="100%" height="auto">
+                  <img src="../../images/${post.image}" width="100%" height="auto">
                   ${!!post.imageTitle || !!post.imageContent || !!post.imageUrl
         ? `
                     <div class="border-top border-1 border-dark text-dark p-3">
