@@ -1,7 +1,7 @@
 [
     {
       "_id": 123,
-      "avatar": "elonmusk.jpeg",
+      "avatar": "elonmusk.jpg",
       "username": "Elon Musk",
       "handle": "elonmusk",
       "time": "24h",
@@ -16,7 +16,7 @@
     },
     {
       "_id": 124,
-      "avatar": "ny.jpeg",
+      "avatar": "ny.png",
       "username": "New York Post",
       "handle": "nypost",
       "time": "23h",

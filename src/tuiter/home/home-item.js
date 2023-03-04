@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeItem = ({post}) => {
   return (
-      <li className="list-group-item bg-black">
+      <li className="list-group-item">
         <div className="row">
           <div className="col-1 d-flex justify-content-center">
             <img src={`/images/${post.avatar}`}
@@ -18,14 +18,14 @@ const HomeItem = ({post}) => {
                 <div>
                   {post.username}
                 </div>
-                <i className="fa-solid fa-check-circle text-white ms-2 me-2"></i>
+                <i className="fa-solid fa-check-circle text-dark ms-2 me-2"></i>
                 <div className="text-dark">@{post.handle}</div>
                 <div className="ms-2 text-dark">- {post.time}</div>
               </div>
 
               <i className="fa-solid fa-ellipsis fs-5"></i>
             </div>
-            <div className="text-white">
+            <div className="text-dark">
               {post.content}
             </div>
 
@@ -40,7 +40,7 @@ const HomeItem = ({post}) => {
                   ?
                   <div
                       className="border-top border-1 border-dark text-dark p-3">
-                    {!!post.imageTitle ? <div className="text-white">
+                    {!!post.imageTitle ? <div className="text-dark">
                       {post.imageTitle}
                     </div> : null}
                     {!!post.imageContent ? <div>
