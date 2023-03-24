@@ -27,7 +27,7 @@ const EditProfileComponent = () => {
             </Link>
 
             <div
-                className=" d-flex align-items-center text-white fw-bolder">
+                className=" d-flex align-items-center fw-bolder">
               <div>
                 Edit Profile
               </div>
@@ -68,7 +68,7 @@ const EditProfileComponent = () => {
         <div className="mt-5 ps-3 pe-3">
           <div className="position-relative">
             <label className="position-absolute ps-3">Name</label>
-            <input className="form-control bg-black text-white pt-4" type="text"
+            <input className="form-control pt-4" type="text"
                    value={username}
                    onChange={e => {
                      setUsername(e.target.value)
@@ -78,7 +78,7 @@ const EditProfileComponent = () => {
 
           <div className="position-relative mt-3">
             <label className="position-absolute ps-3">Bio</label>
-            <textarea className="form-control bg-black text-white pt-4"
+            <textarea className="form-control pt-4"
                       rows={3}
                       value={bio}
                       onChange={e => {
@@ -88,7 +88,7 @@ const EditProfileComponent = () => {
 
           <div className="position-relative mt-3">
             <label className="position-absolute ps-3">Location</label>
-            <input className="form-control bg-black text-white pt-4" type="text"
+            <input className="form-control pt-4" type="text"
                    value={location}
                    onChange={e => {
                      setLocation(e.target.value)
@@ -97,7 +97,7 @@ const EditProfileComponent = () => {
 
           <div className="position-relative mt-3">
             <label className="position-absolute ps-3">Website</label>
-            <input className="form-control bg-black text-white pt-4" type="text"
+            <input className="form-control pt-4" type="text"
                    value={website}
                    onChange={e => {
                      setWebsite(e.target.value)
@@ -106,7 +106,7 @@ const EditProfileComponent = () => {
 
           <div className="position-relative mt-3 pb-5">
             <label className="position-absolute ps-3">Birth date</label>
-            <input className="form-control bg-black text-white pt-4" type="date"
+            <input className="form-control pt-4" type="date"
                    value={dateOfBirth}
                    onChange={e => {
                      setDateOfBirth(e.target.value)
