@@ -61,8 +61,14 @@ const EditProfileComponent = () => {
         <div className="d-flex position-relative ps-4 mb-5">
           <img
               className="col-3 border border-dark border-3 rounded-circle position-absolute top-0 translate-middle-y"
-              src={"/images/react.png"}
+              src={"/images/elonmusk.jpg"}
               alt=""/>
+          <div
+              className="position-relative top-15 ps-5">
+            <div className="me-5">
+              <i className="bi bi-camera fs-4"></i>
+            </div>
+          </div>
         </div>
 
         <div className="mt-5 ps-3 pe-3">

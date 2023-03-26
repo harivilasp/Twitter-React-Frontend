@@ -28,7 +28,7 @@ const ProfileComponent = () => {
         <div className="d-flex position-relative ps-4 mb-5">
           <img
               className="col-3 border border-dark border-3 rounded-circle position-absolute top-0 translate-middle-y"
-              src={"/images/react.png"}
+              src={"/images/elonmusk.jpg"}
               alt=""/>
 
           <div className="position-absolute me-2 end-0">
