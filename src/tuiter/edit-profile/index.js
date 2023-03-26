@@ -64,9 +64,9 @@ const EditProfileComponent = () => {
               src={"/images/elonmusk.jpg"}
               alt=""/>
           <div
-              className="position-relative top-15 ml-5 ps-5">
+              className="position-relative top-15 ml-5 ps-5 translate-middle-x translate-middle-y">
             <div className="me-5">
-              <i className="bi bi-camera ml-2 fs-4"></i>
+              <i className="bi bi-camera fs-4"></i>
             </div>
           </div>
         </div>
