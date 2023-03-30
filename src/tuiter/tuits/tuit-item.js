@@ -9,6 +9,7 @@ const TuitItem = ({tuit}) => {
   const deleteTuitHandler = (id) => {
     dispatch(deleteTuit(id));
   }
+  console.log("Inside Tuit Item ")
   return (
       <li className="list-group-item pt-3">
         <div className="row">
