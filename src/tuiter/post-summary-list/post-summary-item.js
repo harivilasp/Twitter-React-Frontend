@@ -49,7 +49,6 @@ const PostSummaryItem = (
                  height={100}/>
           </div>
         </div>
-        {/* console.log("Post Summary list "); */}
       </li>
   );
 };
