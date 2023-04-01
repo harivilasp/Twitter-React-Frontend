@@ -1,5 +1,6 @@
 import React from "react";
 import {useDispatch} from "react-redux";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 // import {likeTuitToggle} from "../reducers/tuits-reducer";
 
 const TuitStats = ({tuit}) => {
@@ -20,11 +21,22 @@ const TuitStats = ({tuit}) => {
         <div className="col-3 nav-link border-0 rounded-0 text-dark">
         {/* <button className="border-0 fg-color-white"  style={{backgroundColor: 'white'}} onClick={() => 
                 toggleTodoDone(tuit)} > */}
-          {tuit.liked ?
+          {/* {tuit.liked ?
               <i className="fa-solid fa-heart me-2 text-danger"></i> :
               <i className="fa-regular fa-heart me-2"></i>}
-          {tuit.like}
+          {tuit.like} */}
           {/* </button> */}
+          <div>
+            {tuit.like}
+            <i onClick={() => dispatch(updateTuitThunk({
+                ...tuit,
+                like: tuit.like + (tuit.liked === true ? -1 : 1),
+                liked: tuit.liked ? false: true
+            }
+            ))
+          } 
+          className={tuit.liked ? "bi bi-heart-fill me-2 text-danger": "fa-regular fa-heart me-2"}></i>
+          </div>
         </div>
         <div className="col-3 nav-link border-0 rounded-0 text-dark">
           <i className="fa-solid fa-arrow-up-from-bracket"></i>
