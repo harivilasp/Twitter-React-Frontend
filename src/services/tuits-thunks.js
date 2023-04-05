@@ -9,7 +9,7 @@ const currentUser = {
 
 const templateTuit = {
   ...currentUser,
-  "topic": "Space",
+  "topic": "ReactJS",
   "time": "2h"
 }
 
