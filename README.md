@@ -19,7 +19,7 @@ https://dapper-licorice-6ff9ed.netlify.app/
 - Redux Toolkit
 - React Router
 - Axios for API requests
-- Node.js and Express.js for the backend API - [Tuiter Sandbox Server](https://github.com/BobErgot/Tuiter-Sandbox-Server)
+- Node.js and Express.js for the backend API 
 
 ## Getting Started
 
